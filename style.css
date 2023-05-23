@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Pangolin&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+.titulo
+{
+    color: #22D4FD;
+}
+.sub-titulo
+{
+    color: #22D4FD;
+}
+
+.home
+{
+    margin: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home__texto
+{
+    width: 615px;
+}
+
+.home__titulo
+{
+    font-size: 36px;
+    font-family: 'Pangolin', cursive;
+}
+
+.home__paragrafo
+{
+    font-size: 24px;
+    font-family: 'Caveat', cursive;
+}
+
+.home__link
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.home__dist
+{
+    background-color: #22D4FD;
+    width: 400px;
+    text-align: center;
+    border-radius: 26px;
+    font-size: 18px;
+    padding: 15px 0;
+    text-decoration: none;
+    color: black;
+}
